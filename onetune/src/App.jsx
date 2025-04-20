@@ -4,6 +4,8 @@ import './App.css';
 import { DriveExplorer } from "./DriveExplorer";
 
 function App() {
+  
+  //Comprueba si el usuario está autenticado
   const isAuth = useIsAuthenticated();
 
   return (

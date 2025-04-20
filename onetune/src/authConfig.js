@@ -20,6 +20,7 @@ export const msalConfig = {
     }
   }
 };
+
 export const loginRequest = {
   scopes: ["Files.Read", "User.Read"],
 };
